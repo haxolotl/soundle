@@ -7,7 +7,7 @@ const App = () => {
     return (
         <div className="app-container">
           <div className="artist-container">
-            <img src="https://via.placeholder.com/150" alt="Artist" />
+            <img src="./test-data/default-artist.png" alt="Artist" />
             <h1>Artist Name</h1>
             <p>Artist description goes here</p>
           </div>
