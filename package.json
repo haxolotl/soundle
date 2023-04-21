@@ -1,11 +1,17 @@
 {
   "name": "soundle",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "homepage": "https://your-username.github.io/my-app",
   "description": "A wordlelike game about geussing similar artists",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "npm test"
   },
   "author": "Hax0l0tl",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
