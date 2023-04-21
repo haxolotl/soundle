@@ -1,0 +1,11 @@
+{
+  "name": "soundle",
+  "version": "1.0.0",
+  "description": "A wordlelike game about geussing similar artists",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Hax0l0tl",
+  "license": "ISC"
+}
